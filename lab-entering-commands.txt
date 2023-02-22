@@ -6,15 +6,47 @@ Follow the instructions line-by-line.
 * Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
-
-
-
-==========
 1. Open Terminal.  Type:
 
 $ ls<ENTER>
-
 Copy and paste the output of ls below.
+'3D Objects'/
+ AppData/
+'Application Data'@
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Lego_BrickMaster.hipnc
+ Lego_BrickMaster_assembly.hipnc
+ Lego_BrickMastertest.hipnc
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{064ab821-9392-11eb-b54c-cf144c8819a0}.TM.blf
+  NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ backup/
+ ipr/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ render/
+ untitled.hipnc
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
@@ -26,27 +58,27 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
-
+Display all 419 possibilities? (y or n)
+If yes than all 419 files that start with D are displayed in the console, if no than you you back to the command line with D as only character. Every file listed is either .ddl or .exe
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
-
-
+Nothing happens to the prompt when you hit tab again, the message stays the same, Display all 419 possibilities? (y or n)
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
-
-
+Nothing happens to the prompt when you hit enter, the message stays the same, Display all 419 possibilities? (y or n)
 ==========
 3.  Type:
 
 $ ls -l Documents<ENTER>
-
 Copy and paste the first *two lines* of output below.
+
+total 0
+lrwxrwxrwx 1 psef1 197609 20 Aug 21  2020 'My Music' -> /c/Users/psef1/Music/
+
+
 ----------
 
 
@@ -58,9 +90,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
-
+ ./   ../  'My Music'@  'My Pictures'@  'My Videos'@
 ==========
 5.  Type:
 
@@ -68,8 +98,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
-
+ ./   ../  'My Music'@  'My Pictures'@  'My Videos'@
 
 ==========
 6.  Type:
@@ -78,9 +107,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
-
-
+$ ls -l Documents
 ==========
 7.  Type:
 
@@ -88,9 +115,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
-
-
+ ls /bin/
 ==========
 8.  Type:
 
@@ -98,39 +123,36 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<UP>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-a
+-l
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<tab>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
-
-
+$  ls doesnotexist
 ==========
 14.  Type:
 
@@ -138,8 +160,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
-
+bash: foo: command not found
 
 ==========
 15.  Type:
@@ -148,8 +169,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
-
+bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -158,3 +178,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+,ls is the command, flag is -a and argument is Desktop. THe prompt is $
