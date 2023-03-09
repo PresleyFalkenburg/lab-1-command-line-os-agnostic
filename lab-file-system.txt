@@ -103,7 +103,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-/c/Users/Admin/Desktop/mtech1003
+/c/Users/Admin/mtech1003
 
 ==========
 12. Type:
@@ -137,7 +137,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-/c/Users/Admin
+bash: cd: /mnt: No such file or directory
 
 
 ==========
@@ -159,7 +159,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-c/Users/Admin
+c/Users/Admin/mtech1003
 
 
 ==========
@@ -188,14 +188,14 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
-
+$ mkdir -p pineapple/orange/strawbery/lemon
 
 ==========
 18. Make another directory called aardvark.  
 
 Write the command you used to create the directory below:
 ----------
+$ mkdir aardvark
 
 
 
@@ -205,6 +205,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
+drwxr-xr-x 1 Admin 197609 0 Mar  8 23:22 aardvark/
 
 
 ==========
@@ -216,60 +217,59 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
-
+$ mkdir -p foo/bar/baz
 
 ==========
 21. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
 ----------
-
-
+$ cd foo/bar/baz
 
 ==========
 22. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+$ cd ../..
 
 ==========
 23. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
 
-
+-l
 
 ==========
 26. What's the shortcut for home directory?
 ----------
 
-
+~
 
 ==========
 27. What's a pathname?
 ----------
 
-
+a pathname is the location of directory with all parent directories listed before
 
 ==========
 28. What's a directory?
 ----------
-
+A directory is the location where files and other programs are stored
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/c/Users/Admin/Downloads
