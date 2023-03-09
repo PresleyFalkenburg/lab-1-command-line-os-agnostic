@@ -30,7 +30,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-Here's an answer
+Admin@DESKTOP-4VNC2C0 MINGW64 ~/Desktop/mtech1003
 
 
 ==========
@@ -42,7 +42,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-second time.
+animals/
 
 ==========
 6. Type:
@@ -52,9 +52,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
-
+animals/  food/
 ==========
 7. Type:
 
@@ -63,9 +61,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
-
+animals/  foo/  food/
 ==========
 8. Type:
 
@@ -75,7 +71,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Admin/Desktop/mtech1003/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -86,7 +82,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Admin/Desktop/mtech1003/foo/barc
 
 ==========
 10. Type:
@@ -97,7 +93,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Admin/Desktop/mtech1003/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -107,8 +103,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/c/Users/Admin/Desktop/mtech1003
 
 ==========
 12. Type:
@@ -119,8 +114,9 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
-
+total 0
+drwxr-xr-x 1 Admin 197121 0 Feb 28 23:27 foo/
+drwxr-xr-x 1 Admin 197121 0 Feb 28 23:25 food/
 
 ==========
 13. Type:
@@ -130,7 +126,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/c/Users/Admin
 
 
 ==========
@@ -141,7 +137,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/c/Users/Admin
 
 
 ==========
@@ -153,7 +149,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+bash: cd: /unknown_folder: No such file or directory
 
 ==========
 15. Type:
@@ -163,13 +159,13 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+c/Users/Admin
 
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+pwd gives you path of current directory
 
 
 ==========
